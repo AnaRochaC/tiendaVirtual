@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>MiBarrio.com</title>
+  <link rel="icon" type="image/x-icon" href="src\assets\images\icono.png">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="src/assets/styles/index.css">
+
+  <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+  <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body onload="loadHeader()">
+  <!-- Cuerpo html -->
+  <div class="container-fluid">
+    <div id="idCabecera"></div>
+
+    <div id="idRuteo">
+    </div>
+  </div>
+
+  <!-- Javascripts obligatorios -->
+  <script src="node_modules/routing/route.js"></script>
+  <script src="node_modules/routing/router.js"></script>
+  <script src="src/rutas/ruteo.js"></script>
+  <script src="node_modules/loadheader/header.js"></script>
+  <script src="src/assets/js/logica.js"></script>
+  
+  <!--scripts categorias -->
+  <script src="src/assets/js/roles/invenListar.js"></script>
+  <script src="src/assets/js/roles/invenCrear.js"></script>
+  <script src="src/assets/js/roles/invenAdmin.js"></script>
+  <script src="src/assets/js/roles/invenEliminar.js"></script>
+
+</body>
+
+</html>
